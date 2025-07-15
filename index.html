@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>happy birthday to you</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="envelope-wrapper">
+        <div class="envelope">
+          <div class="letter">
+            <div class="text">
+              <strong>Nak</strong>
+              <p class="text-b">
+                ថ្ងៃនេះគឺជាថ្ងៃពិសេសបំផុតនៅក្នុងជីវិតរបស់អ្នក
+                ហើយខ្ញុំមានកិត្តិយសបានជាមិត្តស្និទ្ធនិងអ្នកក្នុងថ្ងៃដ៏អស្ចារ្យនេះ។
+                សូមអោយអ្នកមានសុភមង្គលជានិច្ច ជួបតែសេចក្តីស្រឡាញ់ពិតប្រាកដ
+                និងមនុស្សល្អៗ សំណាងល្អ​​ ក៏ដូចជាជោគជ័យក្នុងការងារនិងជីវិត
+                សូមឲ្យទៅជាមួយអ្នករាល់ថ្ងៃ។ សូមឲ្យភាពស្រស់ស្រាយនៃថ្ងៃខួបកំណើតនេះ
+                បន្លាយទៅជាឆ្នាំថ្មីដែលពោរពេញដោយអំណោយដ៏អស្ចារ្យជាច្រើន។
+                រីករាយថ្ងៃខួបកំណើត!🎈ខ្ញុំស្រលាញ់និងគោរពអ្នកជានិច្ច ❤️
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="heart"></div>
+      </div>
+    </div>
+    <script>
+      const envelope = document.querySelector(".envelope-wrapper");
+      envelope.addEventListener("click", () => {
+        envelope.classList.toggle("flap");
+      });
+    </script>
+  </body>
+</html>
